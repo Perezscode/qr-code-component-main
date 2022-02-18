@@ -1,0 +1,92 @@
+:root {
+--white : hsl(0, 0%, 100%);
+--light-gray: hsl(212, 45%, 89%);
+--grayish-blue: hsl(220, 15%, 55%);
+--dark-blue: hsl(218, 44%, 22%);
+--fuente: "Outfit", sans-serif;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1 rem = 10px */
+}
+
+*,
+*:before,
+*::after {
+  box-sizing: inherit;
+}
+
+/**   Globales    **/
+
+body {
+  font-family: var(--fuente);
+  font-size: 1.5 rem;
+  background-color: var(--light-gray);
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 100vh;
+  padding-top: 10rem;
+
+}
+
+main {
+  padding-left: 17rem;
+
+}
+
+@media (min-width: 500px) {
+  .contenedor {
+    width: 450px;
+  }
+     
+}
+
+.contenedor {
+  max-width: min(60%, 150rem);
+  background-color: var(--white);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 3%;
+
+}
+
+img {
+  width: 100%;
+  border-radius: 3%;
+}
+
+footer {
+  padding-top: 4rem;
+
+}
+
+/**   Tipografia **/
+
+h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--grayish-blue);
+
+}
+
