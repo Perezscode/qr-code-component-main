@@ -2,7 +2,7 @@
 
 Overview
 
-this was made with the only purpose of learning and practicing my skills
+this repository was made with the only purpose of learning and practicing.
 
 
 QR code component solution Used
